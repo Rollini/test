@@ -207,7 +207,7 @@ public class RootController {
         WritableImage image = canvas.snapshot(new SnapshotParameters(), null);
         try {
             ImageIO.write(SwingFXUtils.fromFXImage(image, null), "png", file);
-            DialogUtil.show(Alert.AlertType.INFORMATION, "保存成功", "保存成功");
+            DialogUtil.show(Alert.AlertType.INFORMATION, "保存成功", "保存成功12");
         } catch (IOException e) {
             e.printStackTrace();
         }
