@@ -27,7 +27,7 @@ public class MainApp extends Application {
     @Override
     public void start(Stage primaryStage) {
         this.primaryStage = primaryStage;
-        this.primaryStage.setTitle("Online Canvas1");
+        this.primaryStage.setTitle("Online Canvas12");
         this.primaryStage.setResizable(false);
 
         initialize();
