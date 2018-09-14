@@ -45,7 +45,7 @@ public class ConnectController {
             } catch (MqttException e) {
                 e.printStackTrace();
                 DialogUtil.show(Alert.AlertType.ERROR,
-                        "Mqtt server连接失败", "Mqtt server连接失败");
+                        "Mqtt server连接失败", "Mqtt server连接失败1");
             }finally {
                 dialogStage.close();
             }
